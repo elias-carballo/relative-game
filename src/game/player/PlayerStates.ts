@@ -33,7 +33,7 @@ export enum PlayerStateId {
   //       LEDGE_HANGING, ATTACKING, HIT_STUN, DEAD
 }
 
-export abstract class PlayerState {
+abstract class PlayerState {
   abstract readonly id: PlayerStateId;
 
   enter(_ctx: IPlayerContext): void {}

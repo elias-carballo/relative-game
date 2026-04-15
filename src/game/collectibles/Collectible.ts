@@ -11,7 +11,7 @@
 import { Entity } from '../core/Entity';
 import { COLLECTIBLE_SIZE } from '../constants';
 
-export abstract class Collectible extends Entity {
+abstract class Collectible extends Entity {
   abstract readonly type: string;
 
   protected bobOffset: number = Math.random() * Math.PI * 2; // phase offset for bobbing

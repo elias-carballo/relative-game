@@ -10,7 +10,7 @@
 // TODO: Add on-hit callbacks for damage application.
 // ============================================================
 
-export abstract class Action {
+abstract class Action {
   abstract readonly id:   string;
   abstract readonly name: string;
 

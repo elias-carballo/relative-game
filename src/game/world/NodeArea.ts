@@ -10,7 +10,7 @@
 
 import { Area } from './Area';
 
-export abstract class NodeArea extends Area {
+abstract class NodeArea extends Area {
   readonly isPersistent = true;
 
   // TODO: npcs: NPC[] = [];

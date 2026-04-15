@@ -22,7 +22,7 @@ export interface AreaExit {
   label:  string;
 }
 
-export abstract class Area {
+abstract class Area {
   abstract readonly id:   string;
   abstract readonly name: string;
 

@@ -8,7 +8,7 @@ import { Vector2 } from './Vector2';
 
 let _nextId = 0;
 
-export abstract class Entity {
+abstract class Entity {
   readonly id: number;
 
   position: Vector2;

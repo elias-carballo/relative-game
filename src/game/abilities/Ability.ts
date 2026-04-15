@@ -14,7 +14,7 @@ export interface AbilityContext {
   [key: string]: unknown; // allows abilities to consume arbitrary context data
 }
 
-export abstract class Ability {
+abstract class Ability {
   abstract readonly id:       string;
   abstract readonly name:     string;
   abstract readonly locked:   boolean;

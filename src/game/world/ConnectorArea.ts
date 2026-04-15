@@ -17,7 +17,7 @@
 import { Area }     from './Area';
 import { RunState } from '../progression/RunState';
 
-export abstract class ConnectorArea extends Area {
+abstract class ConnectorArea extends Area {
   readonly isPersistent = false;
 
   /** Called each time the connector is activated.
