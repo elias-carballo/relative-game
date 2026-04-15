@@ -39,5 +39,4 @@ export interface ActionContext {
   // TODO: Add reference to ResourceManager for cost deduction
 }
 
-
 export { Action }

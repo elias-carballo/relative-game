@@ -79,5 +79,4 @@ export abstract class Area {
   }
 }
 
-
 export { Area }

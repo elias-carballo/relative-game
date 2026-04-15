@@ -41,5 +41,4 @@ export abstract class Entity {
   abstract render(ctx: CanvasRenderingContext2D): void;
 }
 
-
 export { Entity }

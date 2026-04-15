@@ -26,5 +26,4 @@ export abstract class NodeArea extends Area {
   }
 }
 
-
 export { NodeArea }

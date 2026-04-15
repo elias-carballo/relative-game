@@ -33,5 +33,4 @@ export abstract class ConnectorArea extends Area {
   }
 }
 
-
 export { ConnectorArea }

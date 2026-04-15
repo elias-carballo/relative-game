@@ -39,5 +39,4 @@ export interface CollectContext {
   // TODO: grantItem, restoreHealth, unlockAbility, etc.
 }
 
-
 export { Collectible }

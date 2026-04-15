@@ -149,5 +149,4 @@ function shouldJump(ctx: IPlayerContext): boolean {
   return (jumpPressed || buffered) && canJump;
 }
 
-
 export { PlayerState }

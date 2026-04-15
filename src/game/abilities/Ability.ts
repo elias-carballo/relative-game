@@ -29,5 +29,4 @@ export abstract class Ability {
   abstract canActivate(ctx: AbilityContext): boolean;
 }
 
-
 export { Ability }
